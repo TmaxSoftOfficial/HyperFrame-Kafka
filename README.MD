@@ -4,11 +4,11 @@
 ## 설치파일
 ### zookeeper
 * Version : apache-zookeeper-3.8.0-bin.tar.gz
-* Note : https://dlcdn.apache.org/zookeeper/zookeeper-3.8.0/apache-zookeeper-3.8.0-bin.tar.gz
+* Note : https://dlcdn.apache.org/zookeeper/zookeeper-3.8.0/
 * 설명
 
 ### kafka
-* Version : kafka_2.12-3.2.1.tgz
+* Version : kafka_2.-3.2.1.tgz
 * Note : https://downloads.apache.org/kafka/3.2.1/
 * 설명
 
@@ -22,7 +22,7 @@
 
 ### 1) zookeeper 설치 및 압축풀기
 
-    $ cd ${INSTALLER_HOME}
+    $ cd ${INSTALL_HOME}
     $ tar -zxf apache-zookeeper-3.8.0-bin.tar.gz
     
 ### 2) zookeeper 환경설정
@@ -52,3 +52,7 @@
      $ ./zkServer.sh stop
      
 ## zookeeper & kafka 연동
+
+     $ cd ${INSTALL_HOME}
+     $ tar -zxf kafka-3.2.1-src.tgz 
+     
