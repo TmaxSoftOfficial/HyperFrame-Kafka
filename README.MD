@@ -3,7 +3,7 @@
 
 ## 설치파일
 ### zookeeper
-* Version : apache zookeeper 3.8.0
+* Version : apache-zookeeper-3.8.0-bin.tar.gz
 * Note :
 * 설명
 
