@@ -4,12 +4,12 @@
 ## 설치파일
 ### zookeeper
 * Version : apache-zookeeper-3.8.0-bin.tar.gz
-* Note :
+* Note : 
 * 설명
 
 ### kafka
 * Version : kafka_2.12-3.2.1.tgz
-* Note :
+* Note : https://downloads.apache.org/kafka/3.2.1/
 * 설명
 
 ## 검증환경
