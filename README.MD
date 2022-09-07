@@ -3,7 +3,7 @@
 
 ## 설치파일
 ### zookeeper
-* Version :
+* Version : apache zookeeper 3.8.0
 * Note :
 * 설명
 
