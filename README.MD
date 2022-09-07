@@ -33,6 +33,6 @@
     tickTime=2000
     initLimit=10
     syncLimit=5
-    dataDir=${/.data/zookeeper
+    dataDir=${ZOOKEEPER_HOME}/.data/zookeeper
     clientPort=2181
     ...
