@@ -4,7 +4,7 @@
 ## 설치파일
 ### zookeeper
 * Version : apache-zookeeper-3.8.0-bin.tar.gz
-* Note : 
+* Note : https://dlcdn.apache.org/zookeeper/zookeeper-3.8.0/apache-zookeeper-3.8.0-bin.tar.gz
 * 설명
 
 ### kafka
@@ -12,7 +12,15 @@
 * Note : https://downloads.apache.org/kafka/3.2.1/
 * 설명
 
+## Kafka 지원 Java Version
+* 
+
 ## 검증환경
 * Centos Linux release 7.9.2009
 
 ## 설치 및 실행
+
+### 1) zookeeper 설치 및 압축풀기
+
+    $ cd ${INSTALLER_HOME}
+    $ tar -zxf apache-zookeeper-3.8.0-bin.tar.gz
