@@ -8,7 +8,7 @@
 * 설명
 
 ### kafka
-* Version : kafka_2.12-3.2.1
+* Version : kafka 2.12-3.2.1
 * Note :
 * 설명
 
