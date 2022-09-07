@@ -36,3 +36,12 @@
     dataDir=${ZOOKEEPER_HOME}/.data/zookeeper
     clientPort=2181
     ...
+    
+### 3) zookeeper 실행
+ 
+     $ cd ${ZOOKEEPER_HOME}/bin
+     $ ./zkServer.sh start
+     
+### 4) zookeeper cli 명령어 실행 테스트
+     $ [zk: localhost:2181(CONNECTED) 0] ls /
+     $ [zookeeper] 
