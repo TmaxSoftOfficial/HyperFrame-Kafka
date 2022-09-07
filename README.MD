@@ -45,3 +45,8 @@
 ### 4) zookeeper cli 명령어 실행 테스트
      $ [zk: localhost:2181(CONNECTED) 0] ls /
      $ [zookeeper] 
+     
+### 5) zookeeper 종료
+
+     $ cd ${ZOOKEEPER_HOME}/bin
+     $ ./zkServer.sh stop
