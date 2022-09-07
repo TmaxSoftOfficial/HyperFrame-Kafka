@@ -24,3 +24,15 @@
 
     $ cd ${INSTALLER_HOME}
     $ tar -zxf apache-zookeeper-3.8.0-bin.tar.gz
+    
+### 2) zookeeper 환경설정
+
+    $ cd ${ZOOKEEPER_HOME}/conf
+    $ cp zoo_sample.cfg zoo.cfg
+    ...
+    tickTime=2000
+    initLimit=10
+    syncLimit=5
+    dataDir=${/.data/zookeeper
+    clientPort=2181
+    ...
