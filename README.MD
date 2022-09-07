@@ -50,3 +50,5 @@
 
      $ cd ${ZOOKEEPER_HOME}/bin
      $ ./zkServer.sh stop
+     
+## zookeeper & kafka 연동
